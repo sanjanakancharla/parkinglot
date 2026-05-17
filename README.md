@@ -27,4 +27,4 @@ Acts as a **Facade**, providing a simplified interface for clients (such as entr
 * It relies on the `ParkingManager` for spot allocation and the `FareCalculator` for dynamic pricing,managing the flow of vehicles through entry and exit operations.
 
 
-# Open-Closed Principle
+# Open-Closed Principle(open for extension, closed for modification)
