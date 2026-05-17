@@ -9,6 +9,7 @@
 
 
 ### 3. ParkingManager
+Spot Allocation
 
 
 ### 4. Ticket & Pricing System (Strategy Design Pattern)
