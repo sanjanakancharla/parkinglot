@@ -27,7 +27,7 @@ public class ParkingManager {
         return  null;
     }
 
-ParkingSpot parkVehicle(Vehicle vehicle){
+public ParkingSpot parkVehicle(Vehicle vehicle){
     ParkingSpot spot = findSpotForVehicle(vehicle);
     if(spot!=null){
         spot.occupy(vehicle);
@@ -38,7 +38,7 @@ ParkingSpot parkVehicle(Vehicle vehicle){
     return null;
     }
 
-    void unparkVehicle(Vehicle vehicle){
+    public void unparkVehicle(Vehicle vehicle){
         ParkingSpot spot = vehicleToSpotMap.remove(vehicle.getSize());
         if(spot!=null){
             spot.vacate();
