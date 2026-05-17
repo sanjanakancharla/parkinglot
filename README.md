@@ -1,4 +1,4 @@
-# Parking Lot Low-Level Design (LLD)
+# Parking Lot Low-Level Design (LLD)/ OOP Design
 
 ## Core Objects
 
