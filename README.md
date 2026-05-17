@@ -32,5 +32,5 @@ Manages the entry/exit records and calculates costs dynamically based on the **S
 ### 5. ParkingLot (Facade Design Pattern)
 Acts as a **Facade**, providing a clean, unified, and simplified interface for clients (such as entry/exit gates or system operators) to interact with the system. 
 * It hides inner complexities by delegating complex logic behind the scenes.
-* It relies on the `ParkingManager` for spot allocation and the `FareCalculator` for dynamic pricing.
-* It orchestrates the high-level workflow of vehicles during both entry and exit operations.
+* It relies on the `ParkingManager` for spot allocation and the `FareCalculator` for dynamic pricing,managing the flow of vehicles through entry and exit operations.
+
